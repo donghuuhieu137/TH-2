@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_add_name"
+            android:hint="Enter name ... "
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_edittext"/>
+
+        <EditText
+            android:id="@+id/edt_add_content"
+            android:hint="Enter description "
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_edittext"/>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
